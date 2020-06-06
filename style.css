@@ -1,0 +1,119 @@
+img {
+  width: 1300px
+}
+
+.header {
+  position: relative;
+  font-family: 'Abril Fatface', cursive;
+  color: #222;  
+}
+
+.name {
+  position: absolute;
+  bottom: 40px;
+  left: 290px;
+}
+
+.hi {
+  margin-bottom: 0px;
+  font-size: 38px;
+  font-weight: 570;
+}
+
+.anakin {
+  margin-top: 0px;
+  font-size: 72px;
+  margin-bottom: 0px;
+  font-weight: 570;
+}
+
+summary {
+  width: 700px;
+  margin: auto;
+  margin-top: 50px;
+  line-height: 27px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+ul {
+  list-style-type: square;
+}
+
+blockquote {
+  background: #444444;
+  color: white;
+  font-size: 40px;
+  margin-left: 250px;
+  font-family: 'Abril Fatface', cursive;
+  line-height: 60px;
+  padding-right: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 638px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+blockquote::before {
+  content: '“';
+  font-size: 128px;
+  position: relative;
+  bottom: 15px;
+}
+
+article {
+  width: 700px;
+  margin: auto;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.article {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+section main {
+  line-height: 23px;
+  font-size: 14px;
+  margin-bottom: 25px
+}
+
+section h2 {
+  line-height: 40px;
+  font-size: 21px
+}
+
+.faith::before {
+ bottom: 40px
+}
+
+section h3 {
+  margin-top: 0px;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  line-height: 5px
+}
+
+.listheader {
+  margin-bottom: 0px
+}
+
+section ul {
+  line-height: 27px;
+  margin-bottom: 35px
+}
+
+.master::before {
+  bottom: 40px;
+}
+
+.line {
+  width: 720px;
+  background: black;
+  height: 4px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 60px
+}
